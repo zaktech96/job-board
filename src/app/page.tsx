@@ -1,12 +1,14 @@
 import Image from 'next/image'
 export default function Home() {
   return (
-    <main className="flex items-center justify-center min-h-screen p-24">
-      <h1 className="text-5xl font-bold">Job Board</h1>
-      <p>
-        Hello
+    <main className="flex flex-col items-center justify-center min-h-screen p-24">
+      <h1 className="text-5xl font-bold mb-4">Job Board</h1>
+      <p className="text-lg">
+        Welcome to our Job Board! Find exciting opportunities and take the next
+        step in your career journey.
       </p>
     </main>
   );
 }
+
 
