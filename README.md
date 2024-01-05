@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Logo
+Barakah Board
+Muslim-Friendly Tech Job Board 🚀
 
-## Getting Started
+Elevate your career in the Tech Industry while staying true to your faith.
 
-First, run the development server:
+Connect with like-minded employers who won't make you compromise on your Islamic principles.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Your journey to meaningful professional growth starts here.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Authors
+@ObaidUr-Rahmaan - Tech Lead
+@zaktech96 - Frontend Engineer
+@EpicIbby101 - Frontend Engineer
+Stack
+Next.js
+TypeScript
+Tailwind CSS
+Vercel
+ShadCN UI Kit
+Architecture
+SVG Image
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Prerequisites
+Node - 20.10.0 LTS
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Running Locally
+Clone the project
 
-## Learn More
+  git clone
+Go to the project directory
 
-To learn more about Next.js, take a look at the following resources:
+  cd barakah-board
+Install dependencies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  npm install
+Start the server
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  npm run dev
+Contributing
+See the CONTRIBUTING.md file for more details on how to effectively contribute to this project.
 
-## Deploy on Vercel
+Prettier
+Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Before pushing any changes, format the project locally by running:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+npm run format:fix
+Linting
+ESLint is an automation tool, used to save time by making sure everyone's code is following the same standards. By using ESLint we can avoid wasting time on code reviews for simple things like formatting and naming conventions.
+
+Linting configuration lives in eslint .eslintrc.json
+
+Before pushing any changes, lint the project locally by running:
+
+npm run lint
+Worth watching - <https://youtu.be/Cd-gBxzcsdA> - Difference between Prettier and ESLint
+
+Running Tests
+TODO
+
+Deployment
+Deployments for this project are automated using Vercel's CI pipeline. DevOps knowledge is not required to be productive in this codebase. Vercel listens to changes to this repo on every commit.
+
+Open Pull Request commits automatically generate preview environments.
+Merged Pull Requests trigger Vercel's pipeline to deploy the app to prod.
+You can monitor deployments here - <https://github.com/ObaidUr-Rahmaan/barakah-board/deployments>
