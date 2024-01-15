@@ -21,18 +21,21 @@ export default function Nav() {
           />
         </div>
 
-        {/* Additional Navigation Links */}
-        <ul className="flex space-x-4">
+      
+        <ul className="flex space-x-10">
           <li>
+        {/* Add route path to link back to home */}
             <a href="#" className="hover:underline">Home</a>
           </li>
           <li>
-            <a href="#" className="hover:underline">About</a>
+                    {/* Add route path to link to input page */}
+            <a href="#" className="hover:underline">Input</a>
           </li>
           <li>
+                    {/* Add route path to link back to home */}
             <a href="#" className="hover:underline">Services</a>
           </li>
-          {/* Add more list items for additional navigation links */}
+ 
         </ul>
       </div>
 
