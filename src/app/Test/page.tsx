@@ -1,5 +1,6 @@
 import { Input } from "@/components/ui/input"
-import Typewriter from 'typewriter-effect';
+import Link from 'next/link';
+
 
 export default function Inputs() {
   //create 
@@ -7,10 +8,15 @@ export default function Inputs() {
   // const onSubmit = (data) => {
   //   console.log(data);
   // };
-
     return (
     <main className="flex flex-col items-center justify-center min-h-screen p-24">
-      <Input />
+        <Input />
+        
+         <Link href="/Section"> 
+        <button className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          Go to Input Page
+        </button>
+      </Link>
     </main>
   );
 }
