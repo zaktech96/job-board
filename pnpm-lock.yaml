@@ -7,7 +7,11 @@ settings:
 dependencies:
   '@clerk/nextjs':
     specifier: ^4.29.2
+<<<<<<< Updated upstream
     version: 4.29.2(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)
+=======
+    version: 4.29.3(next@14.0.4)(react-dom@18.2.0)(react@18.2.0)
+>>>>>>> Stashed changes
   next:
     specifier: 14.0.4
     version: 14.0.4(react-dom@18.2.0)(react@18.2.0)
@@ -19,7 +23,11 @@ dependencies:
     version: 18.2.0(react@18.2.0)
   tailwindcss-animate:
     specifier: ^1.0.7
+<<<<<<< Updated upstream
     version: 1.0.7(tailwindcss@3.4.1)
+=======
+    version: 1.0.7(tailwindcss@3.4.0)
+>>>>>>> Stashed changes
   typewriter-effect:
     specifier: ^2.21.0
     version: 2.21.0(react-dom@18.2.0)(react@18.2.0)
@@ -29,8 +37,13 @@ devDependencies:
     specifier: ^20
     version: 20.10.7
   '@types/react':
+<<<<<<< Updated upstream
     specifier: ^18
     version: 18.2.47
+=======
+    specifier: ^18.2.46
+    version: 18.2.46
+>>>>>>> Stashed changes
   '@types/react-dom':
     specifier: ^18
     version: 18.2.18
@@ -77,8 +90,13 @@ packages:
       regenerator-runtime: 0.14.1
     dev: true
 
+<<<<<<< Updated upstream
   /@clerk/backend@0.37.1(react@18.2.0):
     resolution: {integrity: sha512-+KNdl2QtAHGRe5DQSGNJ8FCPFWhG8+HnVw5gHtojCxvTgxvOVUaxDqzytYl2qDd2zjzBDiNqwTd7J+5sEXRdkg==}
+=======
+  /@clerk/backend@0.37.2(react@18.2.0):
+    resolution: {integrity: sha512-Ymnf8LfcZTP/P15uMrY7myUtoOKgKiUR1G2c8429cIPdMTDC/fX+P+HUF1TlcKjwERuT+pGySufSjmPrDwqeMw==}
+>>>>>>> Stashed changes
     engines: {node: '>=14'}
     dependencies:
       '@clerk/shared': 1.3.1(react@18.2.0)
@@ -106,11 +124,19 @@ packages:
       tslib: 2.4.1
     dev: false
 
+<<<<<<< Updated upstream
   /@clerk/clerk-sdk-node@4.13.5(react@18.2.0):
     resolution: {integrity: sha512-Qwf8Q8MXbLM25/kQQqK5TC06DrFsSHFGed61tRr2sLIC/7DedC4+VC7XE+qLIQvFNvjJp8USl3EUZXLn1cAjiA==}
     engines: {node: '>=14'}
     dependencies:
       '@clerk/backend': 0.37.1(react@18.2.0)
+=======
+  /@clerk/clerk-sdk-node@4.13.6(react@18.2.0):
+    resolution: {integrity: sha512-p/bGFvageJ6gTxuyG/VMdl0UiT0HzfT7ymrrcpZjN/lDheCoL5lin5JBBgdV4189tw9xb6wAl2XjsiOvYqo64w==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@clerk/backend': 0.37.2(react@18.2.0)
+>>>>>>> Stashed changes
       '@clerk/shared': 1.3.1(react@18.2.0)
       '@clerk/types': 3.60.0
       '@types/cookies': 0.7.7
@@ -123,17 +149,28 @@ packages:
       - react
     dev: false
 
+<<<<<<< Updated upstream
   /@clerk/nextjs@4.29.2(next@14.0.4)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-iFDTpB2EuWsbRHOgkq8HAc7jHNbYbC/KfNRdLhqboR0RlJHx0+ryoBPTrBnZr5O3WKns2RjbWgQuMH6lh4IpXA==}
+=======
+  /@clerk/nextjs@4.29.3(next@14.0.4)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-qPBHjOAEAwKPnBx7eat6oB5SUlqWWTALeize+pY4TRYURliUk/iZtNFFr/smF87bYCNwslZ+vDRQznEQsSpSkA==}
+>>>>>>> Stashed changes
     engines: {node: '>=14'}
     peerDependencies:
       next: '>=10'
       react: ^17.0.2 || ^18.0.0-0
       react-dom: ^17.0.2 || ^18.0.0-0
     dependencies:
+<<<<<<< Updated upstream
       '@clerk/backend': 0.37.1(react@18.2.0)
       '@clerk/clerk-react': 4.30.3(react@18.2.0)
       '@clerk/clerk-sdk-node': 4.13.5(react@18.2.0)
+=======
+      '@clerk/backend': 0.37.2(react@18.2.0)
+      '@clerk/clerk-react': 4.30.3(react@18.2.0)
+      '@clerk/clerk-sdk-node': 4.13.6(react@18.2.0)
+>>>>>>> Stashed changes
       '@clerk/shared': 1.3.1(react@18.2.0)
       '@clerk/types': 3.60.0
       next: 14.0.4(react-dom@18.2.0)(react@18.2.0)
@@ -425,7 +462,11 @@ packages:
     resolution: {integrity: sha512-coUfuoMeIB7B8/NMekxaDzLhaYmp0HZNPEjYRm9goRou8UZIC3z21s0sL9AWoCw4EG876QyO3kYrc61WNF9B/w==}
     engines: {node: '>=8.0.0'}
     dependencies:
+<<<<<<< Updated upstream
       tslib: 2.4.1
+=======
+      tslib: 2.6.2
+>>>>>>> Stashed changes
     dev: false
 
   /@peculiar/webcrypto@1.4.1:
@@ -435,7 +476,11 @@ packages:
       '@peculiar/asn1-schema': 2.3.8
       '@peculiar/json-schema': 1.1.12
       pvtsutils: 1.3.5
+<<<<<<< Updated upstream
       tslib: 2.4.1
+=======
+      tslib: 2.6.2
+>>>>>>> Stashed changes
       webcrypto-core: 1.7.7
     dev: false
 
@@ -459,13 +504,21 @@ packages:
     resolution: {integrity: sha512-fB3Zu92ucau0iQ0JMCFQE7b/dv8Ot07NI3KaZIkIUNXq82k4eBAqUaneXfleGY9JWskeS9y+u0nXMyspcuQrCg==}
     dependencies:
       '@types/connect': 3.4.38
+<<<<<<< Updated upstream
       '@types/node': 20.10.7
+=======
+      '@types/node': 20.10.6
+>>>>>>> Stashed changes
     dev: false
 
   /@types/connect@3.4.38:
     resolution: {integrity: sha512-K6uROf1LD88uDQqJCktA4yzL1YYAK6NgfsI0v/mTgyPKWsX1CnJ0XPSDhViejru1GcRkLWb8RlzFYJRqGUbaug==}
     dependencies:
+<<<<<<< Updated upstream
       '@types/node': 20.10.7
+=======
+      '@types/node': 20.10.6
+>>>>>>> Stashed changes
     dev: false
 
   /@types/cookies@0.7.7:
@@ -474,7 +527,11 @@ packages:
       '@types/connect': 3.4.38
       '@types/express': 4.17.14
       '@types/keygrip': 1.0.6
+<<<<<<< Updated upstream
       '@types/node': 20.10.7
+=======
+      '@types/node': 20.10.6
+>>>>>>> Stashed changes
     dev: false
 
   /@types/eslint-scope@3.7.7:
@@ -498,7 +555,11 @@ packages:
   /@types/express-serve-static-core@4.17.41:
     resolution: {integrity: sha512-OaJ7XLaelTgrvlZD8/aa0vvvxZdUmlCn6MtWeB7TkiKW70BQLc9XEPpDLPdbo52ZhXUCrznlWdCHWxJWtdyajA==}
     dependencies:
+<<<<<<< Updated upstream
       '@types/node': 20.10.7
+=======
+      '@types/node': 20.10.6
+>>>>>>> Stashed changes
       '@types/qs': 6.9.11
       '@types/range-parser': 1.2.7
       '@types/send': 0.17.4
@@ -540,7 +601,11 @@ packages:
   /@types/node-fetch@2.6.2:
     resolution: {integrity: sha512-DHqhlq5jeESLy19TYhLakJ07kNumXWjcDdxXsLUMJZ6ue8VZJj4kLPQVE/2mdHh3xZziNF1xppu5lwmS53HR+A==}
     dependencies:
+<<<<<<< Updated upstream
       '@types/node': 20.10.7
+=======
+      '@types/node': 20.10.6
+>>>>>>> Stashed changes
       form-data: 3.0.1
     dev: false
 
@@ -548,8 +613,13 @@ packages:
     resolution: {integrity: sha512-vmYJF0REqDyyU0gviezF/KHq/fYaUbFhkcNbQCuPGFQj6VTbXuHZoxs/Y7mutWe73C8AC6l9fFu8mSYiBAqkGA==}
     dev: false
 
+<<<<<<< Updated upstream
   /@types/node@18.19.5:
     resolution: {integrity: sha512-22MG6T02Hos2JWfa1o5jsIByn+bc5iOt1IS4xyg6OG68Bu+wMonVZzdrgCw693++rpLE9RUT/Bx15BeDzO0j+g==}
+=======
+  /@types/node@18.19.4:
+    resolution: {integrity: sha512-xNzlUhzoHotIsnFoXmJB+yWmBvFZgKCI9TtPIEdYIMM1KWfwuY8zh7wvc1u1OAXlC7dlf6mZVx/s+Y5KfFz19A==}
+>>>>>>> Stashed changes
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -593,7 +663,11 @@ packages:
     resolution: {integrity: sha512-x2EM6TJOybec7c52BX0ZspPodMsQUd5L6PRwOunVyVUhXiBSKf3AezDL8Dgvgt5o0UfKNfuA0eMLr2wLT4AiBA==}
     dependencies:
       '@types/mime': 1.3.5
+<<<<<<< Updated upstream
       '@types/node': 20.10.7
+=======
+      '@types/node': 20.10.6
+>>>>>>> Stashed changes
     dev: false
 
   /@types/serve-static@1.15.5:
@@ -601,7 +675,11 @@ packages:
     dependencies:
       '@types/http-errors': 2.0.4
       '@types/mime': 3.0.4
+<<<<<<< Updated upstream
       '@types/node': 20.10.7
+=======
+      '@types/node': 20.10.6
+>>>>>>> Stashed changes
     dev: false
 
   /@types/sinonjs__fake-timers@8.1.1:
@@ -1196,6 +1274,23 @@ packages:
   /camelcase-css@2.0.1:
     resolution: {integrity: sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==}
     engines: {node: '>= 6'}
+<<<<<<< Updated upstream
+=======
+
+  /camelcase-keys@6.2.2:
+    resolution: {integrity: sha512-YrwaA0vEKazPBkn0ipTiMpSajYDSe+KjQfrjhcBMxJt/znbvlHd8Pw/Vamaz5EB4Wfhs3SUR3Z9mwRu/P3s3Yg==}
+    engines: {node: '>=8'}
+    dependencies:
+      camelcase: 5.3.1
+      map-obj: 4.3.0
+      quick-lru: 4.0.1
+    dev: false
+
+  /camelcase@5.3.1:
+    resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==}
+    engines: {node: '>=6'}
+    dev: false
+>>>>>>> Stashed changes
 
   /camelcase-keys@6.2.2:
     resolution: {integrity: sha512-YrwaA0vEKazPBkn0ipTiMpSajYDSe+KjQfrjhcBMxJt/znbvlHd8Pw/Vamaz5EB4Wfhs3SUR3Z9mwRu/P3s3Yg==}
@@ -1517,7 +1612,11 @@ packages:
     resolution: {integrity: sha512-Kv5nKlh6yRrdrGvxeJ2e5y2eRUpkUosIW4A2AS38zwSz27zu7ufDwQPi5Jhs3XAlGNetl3bmnGhQsMtkKJnj3w==}
     dependencies:
       no-case: 3.0.4
+<<<<<<< Updated upstream
       tslib: 2.4.1
+=======
+      tslib: 2.6.2
+>>>>>>> Stashed changes
     dev: false
 
   /eastasianwidth@0.2.0:
@@ -2827,7 +2926,11 @@ packages:
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
+<<<<<<< Updated upstream
       tslib: 2.4.1
+=======
+      tslib: 2.6.2
+>>>>>>> Stashed changes
     dev: false
 
   /lru-cache@10.1.0:
@@ -2978,7 +3081,11 @@ packages:
     resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
     dependencies:
       lower-case: 2.0.2
+<<<<<<< Updated upstream
       tslib: 2.4.1
+=======
+      tslib: 2.6.2
+>>>>>>> Stashed changes
     dev: false
 
   /node-fetch-native@1.0.1:
@@ -3205,7 +3312,11 @@ packages:
       postcss: ^8.4.21
     dependencies:
       camelcase-css: 2.0.1
+<<<<<<< Updated upstream
       postcss: 8.4.33
+=======
+      postcss: 8.4.32
+>>>>>>> Stashed changes
 
   /postcss-load-config@4.0.2(postcss@8.4.33):
     resolution: {integrity: sha512-bSVhyJGL00wMVoPUzAVAnbEoWyqRxkjv64tUl427SKnPrENtq6hJwUojroMz2VB+Q1edmi4IfrAPpami5VVgMQ==}
@@ -3616,7 +3727,11 @@ packages:
     resolution: {integrity: sha512-LAOh4z89bGQvl9pFfNF8V146i7o7/CqFPbqzYgP+yYzDIDeS9HaNFtXABamRW+AQzEVODcvE79ljJ+8a9YSdMg==}
     dependencies:
       dot-case: 3.0.4
+<<<<<<< Updated upstream
       tslib: 2.4.1
+=======
+      tslib: 2.6.2
+>>>>>>> Stashed changes
     dev: false
 
   /snakecase-keys@3.2.1:
@@ -3802,6 +3917,26 @@ packages:
   /supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+<<<<<<< Updated upstream
+=======
+
+  /swr@2.2.0(react@18.2.0):
+    resolution: {integrity: sha512-AjqHOv2lAhkuUdIiBu9xbuettzAzWXmCEcLONNKJRba87WAefz8Ca9d6ds/SzrPc235n1IxWYdhJ2zF3MNUaoQ==}
+    peerDependencies:
+      react: ^16.11.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+      use-sync-external-store: 1.2.0(react@18.2.0)
+    dev: false
+
+  /tailwindcss-animate@1.0.7(tailwindcss@3.4.0):
+    resolution: {integrity: sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==}
+    peerDependencies:
+      tailwindcss: '>=3.0.0 || insiders'
+    dependencies:
+      tailwindcss: 3.4.0
+    dev: false
+>>>>>>> Stashed changes
 
   /swr@2.2.0(react@18.2.0):
     resolution: {integrity: sha512-AjqHOv2lAhkuUdIiBu9xbuettzAzWXmCEcLONNKJRba87WAefz8Ca9d6ds/SzrPc235n1IxWYdhJ2zF3MNUaoQ==}
@@ -4158,7 +4293,11 @@ packages:
       '@peculiar/json-schema': 1.1.12
       asn1js: 3.0.5
       pvtsutils: 1.3.5
+<<<<<<< Updated upstream
       tslib: 2.4.1
+=======
+      tslib: 2.6.2
+>>>>>>> Stashed changes
     dev: false
 
   /webpack-sources@3.2.3:
