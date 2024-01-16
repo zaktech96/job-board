@@ -1,22 +1,57 @@
-import { Input } from "@/components/ui/input"
+'use client'
+// Import necessary dependencies
+import { useState } from 'react';
+import { Input } from "@/components/ui/input";
 import Link from 'next/link';
 
-
+// Create the functional component
+// add submit succession 
 export default function Inputs() {
-  //create 
-  // onSubmit function  to handle the form submission using state hook also to handle the form submission using state hook
-  // const onSubmit = (data) => {
-  //   console.log(data);
-  // };
-    return (
-    <main className="flex flex-col items-center justify-center min-h-screen p-24">
-        <Input />
-        
-         <Link href="/Section"> 
-        <button className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+  // Define state variables
+  const [inputValue, setInputValue] = useState<string>('');
+  const [error, setError] = useState<string>('');
+
+  // Define event handlers
+  const handleInputChange = (value: string) => {
+    setInputValue(value);
+    setError('');
+  };
+
+  const handleSubmit = () => {
+    if (!inputValue.trim()) {
+      setError('Input must contain at least 1 character.');
+    } else {
+      // Process the form submission logic here
+      console.log("Form submitted with input:", inputValue);
+      // Navigate to the specified link
+      window.location.href = "/Section";
+    }
+  };
+
+  // Return the JSX markup
+  return (
+    <main className="flex flex-col items-center justify-center min-h-screen p-8">
+      <div className="max-w-md w-full bg-white rounded-lg shadow-lg p-6">
+        <h1 className="text-2xl font-bold mb-6">Input Form</h1>
+
+        {/* Input component */}
+        <Input
+          onChange={(e) => handleInputChange(e.target.value)}
+        />
+
+        {/* Error message */}
+        {error && (
+          <p className="text-red-500 text-sm mt-2">{error}</p>
+        )}
+
+        {/* Submit button with additional styling */}
+        <button
+          onClick={handleSubmit}
+          className="mt-6 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300"
+        >
           Go to Input Page
         </button>
-      </Link>
+      </div>
     </main>
   );
 }
