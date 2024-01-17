@@ -30,7 +30,7 @@ export default function Inputs() {
 
   // Return the JSX markup
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen p-8">
+    <main className="flex flex-col items-center justify-center min-h-screen p-10">
       <div className="max-w-md w-full bg-white rounded-lg shadow-lg p-6">
         <h1 className="text-2xl font-bold mb-6">Input Form</h1>
 
